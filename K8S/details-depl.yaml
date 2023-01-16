@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: details-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: detailservice
+  template:
+    metadata:
+      labels:
+        app: detailservice
+    spec:
+      containers:
+        - name: detailservice
+          image: ugr19/detailservice:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: details-clusterip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: platformservice
+  ports:
+  - name: platformservice
+    protocol: TCP
+    port: 80
+    targetPort: 80
+  - name: plafromgrpc
+    protocol: TCP
+    port: 666
+    targetPort: 666

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8qxxmSS7PK9RWC3aJMOP6YYgBOw7Y4xRCiHf31A/egg=",
+  "Source": "ProvidersService",
+  "BasePath": "_content/ProvidersService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

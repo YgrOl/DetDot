@@ -1,0 +1,7 @@
+E:\test\DetailService\obj\Debug\net5.0\DetailService.csproj.AssemblyReference.cache
+E:\test\DetailService\obj\Debug\net5.0\DetailService.GeneratedMSBuildEditorConfig.editorconfig
+E:\test\DetailService\obj\Debug\net5.0\DetailService.AssemblyInfoInputs.cache
+E:\test\DetailService\obj\Debug\net5.0\DetailService.AssemblyInfo.cs
+E:\test\DetailService\obj\Debug\net5.0\DetailService.csproj.CoreCompileInputs.cache
+E:\test\DetailService\obj\Debug\net5.0\DetailService.MvcApplicationPartsAssemblyInfo.cs
+E:\test\DetailService\obj\Debug\net5.0\DetailService.MvcApplicationPartsAssemblyInfo.cache
